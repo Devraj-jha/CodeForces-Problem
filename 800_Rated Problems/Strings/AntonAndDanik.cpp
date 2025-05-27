@@ -32,4 +32,8 @@ if(a>d){
 
   
 }
-//i could have  also used for range function
+//i could have also used for range function
+//   for (char ch : s) {
+    //     if (ch == 'A') ++a;
+    //     else ++d;
+    // }
