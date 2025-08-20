@@ -17,7 +17,6 @@ for(int i = 0; i <n; i ++ ){
   current = current + b;
   max_people = max(max_people, current);
 
- 
 }
 
  cout<< max_people<< endl;
