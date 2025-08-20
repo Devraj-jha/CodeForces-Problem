@@ -1,12 +1,19 @@
-# macOS system files
+# macOS junk
 .DS_Store
 
-# build / output files
+# VSCode settings
+.vscode/
+
+# Compiled binaries (C++ executables)
+a.out
+main
 *.out
-*.exe
 *.o
 *.obj
-
-# C++ debug folders
+*.exe
 *.dSYM/
-*.vscode/
+
+# Ignore any file with no extension (executables)
+*
+!*.cpp
+!*.h
