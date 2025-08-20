@@ -1,19 +1,28 @@
 # macOS junk
 .DS_Store
 
-# VSCode settings
+# VSCode
 .vscode/
 
-# Compiled binaries (C++ executables)
-a.out
-main
+# Build files and executables
 *.out
 *.o
 *.obj
 *.exe
+a.out
+main
 *.dSYM/
 
-# Ignore any file with no extension (executables)
+# Ignore files with no extension (executables)
 *
 !*.cpp
 !*.h
+!*.md
+!*.gitignore
+# Ignore executables with no extension
+*/output/*
+*/tempCodeRunnerFile
+*/Notes
+*/CppSkelton
+*.[oO]
+*.[out]
