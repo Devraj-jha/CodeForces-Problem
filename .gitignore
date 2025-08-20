@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# build / output files
+*.out
+*.exe
+*.o
+*.obj
+
+# C++ debug folders
+*.dSYM/
+*.vscode/
