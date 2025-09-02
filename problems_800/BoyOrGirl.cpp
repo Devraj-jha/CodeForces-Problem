@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> 
 #include <string>
 #include <set>
 using namespace std;
@@ -20,3 +20,6 @@ if(s1.size()% 2== 0){
 
 
 }
+
+//input -> lower 
+
