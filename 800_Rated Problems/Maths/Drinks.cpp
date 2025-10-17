@@ -17,4 +17,6 @@ int main() {
     }
 
     cout << fixed << setprecision(6) << sn / n;
+
+    return 0;
 }

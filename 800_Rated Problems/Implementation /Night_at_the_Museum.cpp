@@ -23,3 +23,9 @@ int main(){
 
     return 0;  
 }
+//I learned from this problem that alphabets can be substracted in cpp.
+//they are in numbers..
+//min ( because the circle was circular )
+//abs to rmv negative sign.
+
+//
