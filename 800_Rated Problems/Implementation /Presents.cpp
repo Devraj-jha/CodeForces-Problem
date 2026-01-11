@@ -1,15 +1,24 @@
 #include <iostream>
+#include <vector>
 using namespace std;
-#define PI = 3.14; 
-int main(){
-ios::sync_with_stdio(false);
 
+int main() {
+    int n;
+    cin >> n;
 
-// there are n friends. => 1,2,3.. n whatever
-// each freind give one present to one friend. 
-// number at position i tell you who received the gift from i. 
+    vector<int> p(n + 1), giver(n + 1);
 
-cout << ; 
+    // Read who each friend gave a gift to
+    for (int i = 1; i <= n; i++) {
+        cin >> p[i];
+        giver[p[i]] = i;  // inverse mapping
+    }
 
- return 0; 
+    // Output who gave a gift to each friend
+    for (int i = 1; i <= n; i++) {
+        cout << giver[i] << " ";
+    }
+
+    cout << endl;
+    return 0;
 }
