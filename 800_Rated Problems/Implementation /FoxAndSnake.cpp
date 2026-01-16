@@ -1,24 +1,37 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-ios::sync_with_stdio(false);
+int main() {
+    int n, m;
+    cin >> n >> m;
 
-int n,m;
+    for (int i = 0; i < n; i++) {
 
-cin>> n;
-cin >> m;
+        // Even row → all #
+        if (i % 2 == 0) {
+            for (int j = 0; j < m; j++)
+                cout << "#";
+        }
+        // Odd rows
+        else {
+            // If row index % 4 == 1 → # at end
+            if (i % 4 == 1) {
+                for (int j = 0; j < m - 1; j++)
+                    cout << ".";
+                cout << "#";
+            }
+            // Else → # at start
+            else {
+                cout << "#";
+                for (int j = 0; j < m - 1; j++)
+                    cout << ".";
+            }
+        }
 
+        cout << '\n'; // new line after each row
+    }
 
-for(int i = 1; i <=n; i++){
-
-  if()
-}
-
-
-
-
- return 0; 
+    return 0;
 }
 
 //(1,1) => 1,m 
