@@ -11,26 +11,19 @@ int main(){
     
     while(t--){
         
-        int n; 
-        cin >> n; 
-        int power = 1; 
-        int sum = 0; 
-    
-        for(int i = 1; i <=n; i ++){
+      long long n;
+      cin >> n; 
+      long long sum = n * (n + 1)/2;
 
+      long long power = 1; 
+      long long powSum = 0; 
 
-            if(i == power  ){
-                 sum = sum - i; 
-                 power = power * 2; 
-            }else {
-              
-                sum = sum + i; 
-            }
-
-        }
-
-        cout << sum << "\n";
-
+      while(power <= n ){
+        powSum += power; 
+        power *= 2;
+      }
+      sum -= 2 * powSum; 
+      cout << sum << "\n";
     }
 
 // ,1,2 ,4, 8
