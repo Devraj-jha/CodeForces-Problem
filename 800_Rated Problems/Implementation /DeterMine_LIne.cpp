@@ -1,18 +1,15 @@
 #include <iostream>
-#include <set> 
+#include <set>
+#include <algorithm>
+#include <iterator>
 
 using namespace std;
 
-int main(){
+int main() {
+    int n;
+    cin >> n;
 
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int n ; 
-    cin >> n; 
-
-    set< int> possible; 
-
+    set<int> possible;
 
     for (int i = 0; i < n; i++) {
         int r;
@@ -26,7 +23,7 @@ int main(){
         }
 
         if (i == 0) {
-            possible = current; 
+            possible = current;
         } else {
             set<int> temp;
             set_intersection(
