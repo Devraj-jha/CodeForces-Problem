@@ -1,24 +1,27 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
-int main(){
-
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
+int main() {
     int n;
     cin >> n;
-    int cn = 0; 
-    for ( int i = 0; i < n; i ++ ){
 
-        int j,k;
-        cin >> j >> k;
-
-        if ( )
+    vector<int> home(n), guest(n);
+    for (int i = 0; i < n; i++) {
+        cin >> home[i] >> guest[i];
     }
 
-   
+    int answer = 0;
 
-    return 0;  
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i != j && home[i] == guest[j]) {
+                answer++;
+            }
+        }
+    }
+
+    cout << answer << endl;
+    return 0;
 }
-
