@@ -6,7 +6,7 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n,k; 
+    long long n,k; 
     int cn = 0;
 
     cin >> n >> k; 
