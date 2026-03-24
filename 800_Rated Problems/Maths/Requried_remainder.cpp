@@ -1,11 +1,7 @@
 #include <iostream>
-#include <vector>
-
-// 2 3 4 1 => r b r b .. -> b r b r 
 using namespace std;
 
 int main(){
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -13,20 +9,14 @@ int main(){
     cin >> t;
     
     while(t--){
-       int x,y,n; 
-       cin >> x >> y >> n; 
-       
-       // k mod x= y; 
+        int x, y, n;
+        cin >> x >> y >> n;
 
-       for(int i = n; i >= 0 ; i-- ){
-        if(i % x == y){
-            cout << i << endl; 
-            break; 
-        }
-       }
+        int k = n - (n % x) + y;
+        if(k > n) k -= x;
 
+        cout << k << '\n';
     }
 
-
-    return 0;  
-}  
+    return 0;
+}
