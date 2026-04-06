@@ -1,25 +1,28 @@
 #include <iostream>
-#include <vector>
 
-using namespace std; 
-int main(){
-    int x,m;
-    cin >> x >> m ;
-    int n = x * m; 
-    bool is_black = true; 
-    vector<char> v(n);      
-    for(int i = 0; i < n; i++) {
-        cin >> v[i];       
-    }
 
-    for(int i = 0; i < n; i++ ){
-        if(v[i] == 'C' || v[i] == 'M' || v[i] == 'Y'|| v[i] == 'G'){
-            is_black = false;
+using namespace std;
+
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+
+    bool blackWhite = true;
+
+    for (int i = 0; i < n * m; i++) {
+        string s;
+        cin >> s;   // reads B, W, C, M, Y, G safely
+
+        if (s == "C" || s == "M" || s == "Y" || s == "G") {
+            blackWhite = false;
         }
     }
-    if(is_black){
+
+    if (blackWhite)
         cout << "#Black&White";
-}else{
-    cout << "#Color";
-}
+    else
+        cout << "#Color";
+
+    return 0;
 }
