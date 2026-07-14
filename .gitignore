@@ -1,0 +1,24 @@
+# macOS junk
+.DS_Store
+
+# VSCode
+.vscode/
+# Ignore files with no extension
+# Ignore ALL files
+*
+
+# But track source files (including in subdirectories)
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.py
+!*.md
+!*.txt
+!*.sh
+!Makefile
+!CMakeLists.txt
+!.gitignore
+
+# Track directories (so Git can look inside them)
+!*/
