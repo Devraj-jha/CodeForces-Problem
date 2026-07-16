@@ -6,21 +6,25 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n,m,a,b
-    ; 
-    cin >> n >> m >> a >>b; 
+    int n; 
+    cin >> n; 
+  vector<int> ans(4 * n, 0);
 
+    for(int i = 1; i <= n; i++){
+       int cn = 4; 
 
-    int cn = 0; 
-
-    
-    // one side => a rubles
-    //speical ticket for -> m rides
-    // costs b rubbel
-    // n times subway needs
-
-
-
-
+       while(cn >0){
+        cn --; 
+        
+        if(ans[i] != 0){
+                
+        }
+       }
+    }
     return 0;  
 }  
+// 4 times number appear. 
+//  1 1 1 2 1 3 1 4 
+
+//pxi - px 1 
+// 
