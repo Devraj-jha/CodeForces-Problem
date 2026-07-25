@@ -2,7 +2,7 @@
 
 # <img src="https://codeforces.org/favicon.ico" width="30" /> CodeForces Problems
 
-### A curated collection of **275+** competitive programming solutions in C++
+### A curated collection of **0+** competitive programming solutions in C++
 
 [![GitHub stars](https://img.shields.io/github/stars/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=yellow)](https://github.com/Devraj-jha/CodeForces-Problem/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=blue)](https://github.com/Devraj-jha/CodeForces-Problem/network/members)
@@ -19,39 +19,52 @@ for fast contest-solving.
 ## 📊 Progress at a Glance
 
 ```
-Rating       Problems Solved    ████████████████████████
-───────────────────────────────────────────────────────
- 800 ★☆☆☆☆        173          ████████████████████████
- 900 ★★☆☆☆         41          █████░
-1000 ★★★☆☆         18          ███
-1100 ★★★☆☆          1          █
-1200 ★★★★☆          8          █
-1400 ★★★★☆          1          █
-2000 ★★★★★          1          █
-Contests            19          ██░
-───────────────────────────────────────────────────────
-TOTAL             262 solutions across 8 categories
+Rating        Solved   Progress
+────────────────────────────────────────────────────────
+ 800  ★☆☆☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 900  ★★☆☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1000 ★★★☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1100 ★★★★☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1200 ★★★★☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1300 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1400 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1500 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1600 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1700 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1800 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1900 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 2000 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Contests            0   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+────────────────────────────────────────────────────────
+ TOTAL               0   solutions across 13 rating categories
 ```
 
 ## 📁 Repository Structure
 
 ```
 CodeForces-Problem/
-├── 📂 800_Rated_Problems/       # Beginner tier — 173 solutions
-├── 📂 900_rated_Problems/       # Easy tier — 41 solutions
-├── 📂 1000_rated_problem/       # Easy-Medium — 18 solutions
-├── 📂 1100_Rated_Problems/      # Medium tier — 1 solution
-├── 📂 1200_Rated Problems/      # Medium tier — 8 solutions
-├── 📂 1400_rated Problems/      # Medium-Hard — 1 solution
-├── 📂 2000_rated_problem/       # Hard tier — 1 solution
-├── 📂 Contests/                 # Contest submissions — 19 solutions
-├── 📂 mini_problems/            # Small practice problems
-├── 📂 Topic revision/           # Topic-wise revision notes & code
-├── 📂 cpp/                      # Miscellaneous C++ files
-├── 📄 CppSkelton.cpp            # Fast I/O skeleton template
-├── 📄 cppSkeletonTestCases.cpp  # Skeleton with test case I/O
-├── 📄 Vector_input_skeleton.cpp # Vector input template
-└── 📄 cpp_vector_test_cases.cpp # Vector test case template
+├── 📂 800_Rated Problems                 # Work in progress
+├── 📂 900_rated Problems                 # Work in progress
+├── 📂 1000_rated problem                 # Work in progress
+├── 📂 1100_Rated_Problems                # Work in progress
+├── 📂 1200_Rated Problems                # Work in progress
+├── 📂 1300_Rated_Problems                # Work in progress
+├── 📂 1400_rated Problems                # Work in progress
+├── 📂 1500_Rated_Problems                # Work in progress
+├── 📂 1600_Rated_Problems                # Work in progress
+├── 📂 1700_Rated_Problems                # Work in progress
+├── 📂 1800_Rated_Problems                # Work in progress
+├── 📂 1900_Rated_Problems                # Work in progress
+├── 📂 2000_rated problem                 # Work in progress
+├── 📂 Contests/                          # Work in progress
+├── 📂 mini_problems/                     # Small practice problems
+├── 📂 Topic revision/                    # Topic-wise revision notes & code
+├── 📄 CppSkelton.cpp                     # Fast I/O skeleton template
+├── 📄 cppSkeletonTestCases.cpp           # Skeleton with test case I/O
+├── 📄 Vector_input_skeleton.cpp          # Vector input template
+├── 📄 cpp_vector_test_cases.cpp          # Vector test case template
+├── 📄 test.cpp                          
+└── 📄 README.md
 ```
 
 ## 🚀 Quick Start Skeleton
@@ -62,7 +75,7 @@ Get started solving in seconds with this fast I/O template:
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -92,7 +105,7 @@ int main(){
 | **900** | Greedy, Two Pointers, Sorting, Basic DP |
 | **1000** | Binary Search, Graph basics, Number Theory, Prefix Sums |
 | **1100-1200** | DP, Constructive Algorithms, Bit Manipulation |
-| **1400+** | Advanced DP, Graph Theory, Segment Trees, Math |
+| **1400** | Advanced DP, Graph Theory, Segment Trees, Math |
 
 ## 📝 How to Compile & Run
 
