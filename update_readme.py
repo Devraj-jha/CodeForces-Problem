@@ -47,7 +47,7 @@ def find_rating_dirs():
         rating = get_rating_from_name(item)
         if rating is None:
             continue
-        count = len([f for f in os.listdir(path) if f.endswith('.cpp')])
+        count = sum(1 for _, _, files in os.walk(path) for f in files if f.endswith('.cpp'))
         rating_dirs[rating] = {
             'actual_name': item,
             'count': count,
@@ -112,7 +112,7 @@ def build_readme(rating_dirs):
     for folder, desc in EXTRA_FOLDERS.items():
         p = os.path.join(REPO_DIR, folder)
         if os.path.isdir(p):
-            extra_counts[folder] = len([f for f in os.listdir(p) if f.endswith('.cpp')])
+            extra_counts[folder] = sum(1 for _, _, files in os.walk(p) for f in files if f.endswith('.cpp'))
         else:
             extra_counts[folder] = 0
 
@@ -302,7 +302,7 @@ def git_push():
         total = sum(d['count'] for d in rating_dirs.values())
         contest_dir = os.path.join(REPO_DIR, "Contests")
         if os.path.isdir(contest_dir):
-            total += len([f for f in os.listdir(contest_dir) if f.endswith('.cpp')])
+            total += sum(1 for _, _, files in os.walk(contest_dir) for f in files if f.endswith('.cpp'))
 
         msg = f"docs: auto-update README & structure [{total} solutions]"
         subprocess.run(['git', 'commit', '-m', msg], cwd=REPO_DIR, check=True, capture_output=True)

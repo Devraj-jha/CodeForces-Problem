@@ -2,7 +2,7 @@
 
 # <img src="https://codeforces.org/favicon.ico" width="30" /> CodeForces Problems
 
-### A curated collection of **0+** competitive programming solutions in C++
+### A curated collection of **266+** competitive programming solutions in C++
 
 [![GitHub stars](https://img.shields.io/github/stars/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=yellow)](https://github.com/Devraj-jha/CodeForces-Problem/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=blue)](https://github.com/Devraj-jha/CodeForces-Problem/network/members)
@@ -21,42 +21,42 @@ for fast contest-solving.
 ```
 Rating        Solved   Progress
 ────────────────────────────────────────────────────────
- 800  ★☆☆☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 900  ★★☆☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1000 ★★★☆☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1100 ★★★★☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1200 ★★★★☆    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 800  ★☆☆☆☆        173   ██████████████████████████████
+ 900  ★★☆☆☆         41   ███████░░░░░░░░░░░░░░░░░░░░░░░
+ 1000 ★★★☆☆         18   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1100 ★★★★☆          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1200 ★★★★☆          8   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1300 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1400 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 1400 ★★★★★          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1500 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1600 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1700 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1800 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1900 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 2000 ★★★★★    Work in progress   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- Contests            0   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 2000 ★★★★★          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Contests           19   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ────────────────────────────────────────────────────────
- TOTAL               0   solutions across 13 rating categories
+ TOTAL             266   solutions across 13 rating categories
 ```
 
 ## 📁 Repository Structure
 
 ```
 CodeForces-Problem/
-├── 📂 800_Rated Problems                 # Work in progress
-├── 📂 900_rated Problems                 # Work in progress
-├── 📂 1000_rated problem                 # Work in progress
-├── 📂 1100_Rated_Problems                # Work in progress
-├── 📂 1200_Rated Problems                # Work in progress
+├── 📂 800_Rated Problems                 # 173 solutions
+├── 📂 900_rated Problems                 # 41 solutions
+├── 📂 1000_rated problem                 # 18 solutions
+├── 📂 1100_Rated_Problems                # 1 solution
+├── 📂 1200_Rated Problems                # 8 solutions
 ├── 📂 1300_Rated_Problems                # Work in progress
-├── 📂 1400_rated Problems                # Work in progress
+├── 📂 1400_rated Problems                # 1 solution
 ├── 📂 1500_Rated_Problems                # Work in progress
 ├── 📂 1600_Rated_Problems                # Work in progress
 ├── 📂 1700_Rated_Problems                # Work in progress
 ├── 📂 1800_Rated_Problems                # Work in progress
 ├── 📂 1900_Rated_Problems                # Work in progress
-├── 📂 2000_rated problem                 # Work in progress
-├── 📂 Contests/                          # Work in progress
+├── 📂 2000_rated problem                 # 1 solution
+├── 📂 Contests/                          # 19 solutions
 ├── 📂 mini_problems/                     # Small practice problems
 ├── 📂 Topic revision/                    # Topic-wise revision notes & code
 ├── 📄 CppSkelton.cpp                     # Fast I/O skeleton template
