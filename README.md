@@ -67,9 +67,7 @@ CodeForces-Problem/
 └── 📄 README.md
 ```
 
-## 🚀 Quick Start Skeleton
-
-Get started solving in seconds with this fast I/O template:
+## Quick Start Skeleton
 
 ```cpp
 #include <iostream>
@@ -122,14 +120,11 @@ g++ -std=c++17 -O2 -o solution solution.cpp
 
 ## 📜 License
 
-This project is open source. Feel free to use these solutions for learning!
+This project is open source.
 
 ---
 
 <div align="center">
 
-**Happy Solving! 🏆**
-
-*Keep pushing your rating higher — one problem at a time.*
 
 </div>
