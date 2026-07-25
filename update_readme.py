@@ -134,13 +134,16 @@ def build_readme(rating_dirs):
         c = rating_dirs[r]['count']
         stars = star_rating(r)
         if c == 0:
-            prog.append(f" {r:<4} {stars:<8} {'Work in progress':>7}   {progress_bar(0, max_count)}")
+            prog.append(f" {r:<4} {stars:<8} Work in progress")
         else:
             prog.append(f" {r:<4} {stars:<8} {c:>7}   {progress_bar(c, max_count)}")
 
     for folder in ['Contests']:
         c = extra_counts.get(folder, 0)
-        prog.append(f" {'Contests':<13} {c:>7}   {progress_bar(c, max_count)}")
+        if c == 0:
+            prog.append(f" {'Contests':<13} Work in progress")
+        else:
+            prog.append(f" {'Contests':<13} {c:>7}   {progress_bar(c, max_count)}")
 
     prog.append("─" * 56)
     prog.append(f" {'TOTAL':<13} {grand_total:>7}   solutions across {len(sorted_ratings)} rating categories")
