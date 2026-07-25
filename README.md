@@ -26,13 +26,13 @@ Rating        Solved   Progress
  1000 ★★★☆☆         18   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1100 ★★★★☆          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1200 ★★★★☆          8   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1300 ★★★★★              Work in progress
+ 1300 ★★★★★    Work in progress
  1400 ★★★★★          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- 1500 ★★★★★              Work in progress
- 1600 ★★★★★              Work in progress
- 1700 ★★★★★              Work in progress
- 1800 ★★★★★              Work in progress
- 1900 ★★★★★              Work in progress
+ 1500 ★★★★★    Work in progress
+ 1600 ★★★★★    Work in progress
+ 1700 ★★★★★    Work in progress
+ 1800 ★★★★★    Work in progress
+ 1900 ★★★★★    Work in progress
  2000 ★★★★★          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  Contests           19   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ────────────────────────────────────────────────────────
