@@ -37,3 +37,7 @@ int main(){
 
     return 0;
  }
+
+// first we have a bi array jisme.. sab zero ho jate 
+
+// and wo transormation x karta h.. 
