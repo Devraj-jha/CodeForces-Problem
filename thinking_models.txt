@@ -1,0 +1,9 @@
+1) 
+you can map. a unsored array to a sorted one. 
+using i 
+
+for(int i = 1; i < n; i++){
+    v[i] - (i + 1); 
+
+}
+v[0] - 1; 
