@@ -15,19 +15,50 @@ int main() {
         string s;
         cin >> s;
 
-        int total0 = 0, total1 = 0;
-        for (char c : s) {
-            if (c == '0')
-                total0++;
-            else
-                total1++;
+        if(s.size() == 1){
+            cout << 1 << endl;
+            continue;
+        }
+        int count_0 = 0; 
+        int count_1 = 0; 
+
+        for(int i = 0; i < s.size(); i++){
+            if(s[i] == '0'){
+                count_0++;
+            }else {
+                count_1++;
+            }
+        }
+        int leng = 0;
+        if(count_0 == count_1){
+            cout << 0 << endl;
+            continue;
         }
 
-        int kept = 2 * min(total0, total1);
-        int answer = s.length() - kept;
+        for(int i = 0; i < s.size(); i++){
 
-        cout << answer << '\n';
+            if(s[i] == '0' && count_1 > 0){
+                count_1--; 
+                leng++;
+            }else if(s[i] == '1' && count_0 > 0 ){
+                count_0--;
+                leng++;
+            }else {
+                break;
+            }
+        }
+        cout << s.size() - leng << endl;
     }
 
     return 0;
 }
+
+// 0 delte 
+// 0 1 1 
+// 1 0 1
+// 0 1 0 1 1 1 0 0 0 1 
+
+// 1 1 1 1 0 0 
+// 1 1 1 1 00 
+// 1 1 0 0 
+// 
