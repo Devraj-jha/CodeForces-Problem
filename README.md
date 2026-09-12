@@ -2,7 +2,7 @@
 
 # <img src="https://codeforces.org/favicon.ico" width="30" /> CodeForces Problems
 
-### A curated collection of **286+** competitive programming solutions in C++
+### A curated collection of **287+** competitive programming solutions in C++
 
 [![GitHub stars](https://img.shields.io/github/stars/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=yellow)](https://github.com/Devraj-jha/CodeForces-Problem/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Devraj-jha/CodeForces-Problem?style=flat&logo=github&color=blue)](https://github.com/Devraj-jha/CodeForces-Problem/network/members)
@@ -21,7 +21,7 @@ for fast contest-solving.
 ```
 Rating        Solved   Progress
 ────────────────────────────────────────────────────────
- 800  ★☆☆☆☆        182   ██████████████████████████████
+ 800  ★☆☆☆☆        183   ██████████████████████████████
  900  ★★☆☆☆         50   ████████░░░░░░░░░░░░░░░░░░░░░░
  1000 ★★★☆☆         18   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  1100 ★★★★☆          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -36,14 +36,14 @@ Rating        Solved   Progress
  2000 ★★★★★          1   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  Contests           19   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ────────────────────────────────────────────────────────
- TOTAL             286   solutions across 13 rating categories
+ TOTAL             287   solutions across 13 rating categories
 ```
 
 ## 📁 Repository Structure
 
 ```
 CodeForces-Problem/
-├── 📂 800_Rated Problems                 # 182 solutions
+├── 📂 800_Rated Problems                 # 183 solutions
 ├── 📂 900_rated Problems                 # 50 solutions
 ├── 📂 1000_rated problem                 # 18 solutions
 ├── 📂 1100_Rated_Problems                # 1 solution
